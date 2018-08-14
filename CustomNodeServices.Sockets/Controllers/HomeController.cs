@@ -1,10 +1,10 @@
-﻿using CustomNodeServices.Models;
+﻿using CustomNodeServices.Sockets.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.NodeServices;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
-namespace CustomNodeServices.Controllers
+namespace CustomNodeServices.Sockets.Controllers
 {
     public class HomeController : Controller
     {

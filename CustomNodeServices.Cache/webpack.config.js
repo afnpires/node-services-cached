@@ -19,5 +19,5 @@ module.exports = {
         path: path.resolve(__dirname, './Content/Node'),
         filename: '[name].js'
     },
-    mode: 'development'
+    mode: 'production'
 };
