@@ -7,11 +7,14 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.NodeServices" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AspNetCore.NodeServices.Sockets" Version="1.1.0-beta-000002" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomNodeServices.Sockets.Custom\CustomNodeServices.Sockets.Custom.csproj" />
   </ItemGroup>
 
 </Project>
